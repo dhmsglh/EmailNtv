@@ -50,6 +50,8 @@
 		}
 		.footnote{
 		margin-right: 180px;
+		font-size: 10px;
+		margin-top: 30px;
 		}
   .icon-container {
       margin-top: 30px;
@@ -183,18 +185,31 @@
 		}
 		 @media (max-width: 600px) {
 		.footnote{
-			font-size: smaller;
+			font-size:12px;
 			margin: 0;
 			margin-right: 50px;
 			margin-left: 10px;
 			background-color: rgba(0, 0, 0, 0.3);
 		}	
-
-    .icon-container {
+		.icon-container {
       margin-top: 5px;
     }
-  }
-		}
+		 @media (max-width: 420px) {
+		.footnote{
+			font-size:8px;
+			background-color: rgba(0, 0, 0, 0.3);
+			margin-right: 10px;
+			margin-left: 10px;
+			
+		}	
+		
+	 
+  }	
+ 
+}
+}
+		
+
 	</style><!--[if mso ]><style>sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-text-raise:-10% }</style> <![endif]-->
 </head>
 <body class="body" style="background-color: #F6F5FF; margin: 0; padding: 0; -webkit-text-size-adjust: none; text-size-adjust: none;">
@@ -427,14 +442,14 @@
 <tr>
 <td class="footer" style="max-width: 650px; position: relative;">
   <!-- Container untuk teks dan ikon -->
-  <div style="position: absolute; top: 10px; left: 20px; font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; color: white; padding: 10px; border-radius: 5px; display: flex; flex-direction: column; gap: 10px;">
+  <div class="footerRow" style="position: absolute; top: 5px; left: 20px; font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; color: white; padding: 10px; border-radius: 5px; display: flex; flex-direction: column; gap: 10px;">
     <!-- Teks "More Information :" -->
     <p style="margin: 0;">More Information :</p>
 
     <!-- Container untuk ikon -->
-    <div class="icon-container" style="display: flex; gap: 10px; flex-wrap: wrap;">
+    <div class="icon-container" style="display: flex; gap: 20px; flex-wrap: wrap; filter: invert(100%); ">
       <a href="#" target="_blank">
-        <img src="images/email_2099199.png" alt="Icon 1" style="width: 24px; height: 24px; display: block; border: 0;">
+        <img src="images/email_2099199.png" alt="Icon 1" style="width: 24px; height: 24px; display: block; border: 0; ">
       </a>
       <a href="#" target="_blank">
         <img src="images/hotline.png" alt="Icon 2" style="width: 24px; height: 24px; display: block; border: 0;">
@@ -446,7 +461,7 @@
         <img src="images/book.png" alt="Icon 4" style="width: 24px; height: 24px; display: block; border: 0;">
       </a>
     </div>
-<p class="footnote" style="margin-bottom: 5px; padding: 0; margin-left: -10px;  line-height: 1; text-align: left; font-size: small;">
+<p class="footnote" style="margin-bottom: 10px; padding: 0; margin-left: -5px;  line-height: 1; text-align: left;">
   You are receiving this email because you have been registered as a Netciti subscriber. Please add this email to your contacts.
 </p>
 
